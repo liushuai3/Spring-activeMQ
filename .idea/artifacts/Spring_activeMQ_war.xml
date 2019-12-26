@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring-activeMQ:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Spring-activeMQ</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Spring-activeMQ.war">
+      <element id="artifact" artifact-name="Spring-activeMQ:war exploded" />
+    </root>
+  </artifact>
+</component>
